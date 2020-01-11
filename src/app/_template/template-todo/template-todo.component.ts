@@ -24,6 +24,7 @@ export class TemplateTodoComponent implements OnInit {
 
     public changeCheck(event?: any): void {
       this.toDo$.status = !this.toDo$.status;
+      console.log(this.toDo$.status);
     }
 
 }
